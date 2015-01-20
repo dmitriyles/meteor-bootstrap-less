@@ -1,5 +1,7 @@
 # Bootstrap for Meteor
 
+>`meteor add longuniquename:bootstrap`
+
 This package integrates [Bootstrap](http://getbootstrap.com/) into a [Meteor](https://www.meteor.com/)-based project. Unlike other similar packages, it provides a [LESS](http://lesscss.org/) version of Bootstrap, but does not include Bootstrap `.less` files into your code. You should do it yourself. It could be not so convenient but gives you much more flexibility.
 
 ## Installation
