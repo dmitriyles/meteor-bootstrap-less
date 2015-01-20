@@ -25,6 +25,15 @@ Package.onUse(function (api) {
         'js/affix.js'
     ], 'client');
 
+    //FONTS
+    api.addFiles([
+        'fonts/glyphicons-halflings-regular.eot',
+        'fonts/glyphicons-halflings-regular.svg',
+        'fonts/glyphicons-halflings-regular.ttf',
+        'fonts/glyphicons-halflings-regular.woff',
+        'fonts/glyphicons-halflings-regular.woff2'
+    ], 'client');
+
     //LESS
     api.addFiles([
         'less/mixins/alerts.import.less',
