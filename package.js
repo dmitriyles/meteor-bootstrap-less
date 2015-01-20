@@ -1,12 +1,16 @@
 Package.describe({
     summary: "Bootstrap LESS",
     version: "0.0.1",
-    name: "longuniquename:bootstrap",
-    git: 'https://github.com/dmitriyles/meteor-bootstrap-less.git'
+    name:    "longuniquename:bootstrap",
+    git:     'https://github.com/dmitriyles/meteor-bootstrap-less.git'
 });
 
 Package.onUse(function (api) {
-    api.use('less', 'client');
+    api.use([
+        'less',
+        'jquery'
+    ], 'client');
+
     api.imply('less');
 
     //JS
